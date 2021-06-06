@@ -1,0 +1,57 @@
+body {
+	background-color: #16181b;
+}
+.main {
+	display: flex;
+	flex-wrap: nowarp;
+	height: 100vh;
+	overflow-x:auto;
+}
+
+.cpu-table {
+	
+}
+
+.cpu-table > tbody > tr > td {
+	padding: 0;
+}
+
+.cpu-table > tbody > tr > td > input {
+	width: 100%;
+	height: 100%;
+}
+
+.bankers-table {
+	
+}
+
+.bankers-table > tbody > tr > td {
+	padding: 0;
+}
+
+.bankers-table > tbody > tr > td > input {
+	width: 100%;
+	height: 100%;
+}
+
+.bankers-aval-table {
+	
+}
+
+.bankers-aval-table > tbody > tr > td {
+	padding: 0;
+}
+
+.bankers-aval-table > tbody > tr > td > input {
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (min-width: 800px) {
+    .bankers-aval-table {
+		width: 50%;
+	}
+	.bankers-need-table {
+		width: 50%;
+	}
+}
